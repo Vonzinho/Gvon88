@@ -4,6 +4,22 @@
     
 }
 
+.tela-esquerda img 
+{
+    weight: 100vh;
+    max-width: 100%;
+}
+
+.tela-direita 
+{
+padding-left: 50px;
+}
+
+.tela-login
+{
+    display:flex;
+}
+
 .botoes
 {
     width: 100%;
@@ -34,11 +50,23 @@ body
     text-align: center;
 }
 
-.logo-home 
+.logo-home img 
 {
-    width: 300px; /* Altere para o tamanho desejado */
+    width: 70px; /* Altere para o tamanho desejado */
     height: auto; /* Mantém a proporção da imagem */
-    position: absolute; /* Permite posicionar a imagem */
     top: -95px; /* Alinha ao topo */
     left: -80px; /* Alinha à esquerda */
 }
+.logo-home
+{
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.informações li
+{
+display: inline;
+}
+
