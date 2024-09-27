@@ -33,3 +33,12 @@ body
 {
     text-align: center;
 }
+
+.logo-home 
+{
+    width: 300px; /* Altere para o tamanho desejado */
+    height: auto; /* Mantém a proporção da imagem */
+    position: absolute; /* Permite posicionar a imagem */
+    top: -95px; /* Alinha ao topo */
+    left: -80px; /* Alinha à esquerda */
+}
