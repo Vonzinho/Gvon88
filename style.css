@@ -70,3 +70,67 @@ body
 display: inline;
 }
 
+.informações 
+
+{
+    margin-right: 80px;
+}
+
+.bayer img 
+{
+    width: 70px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.bayer a 
+{
+    margin-top: 50px;
+}
+
+.bayer
+{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.real-madrid img 
+{
+     width: 110px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.real-madrid a 
+{
+    margin-top: 60px;
+    margin-left: -20px;
+}
+
+.real-madrid
+{
+display: flex ;
+align-items: center;
+}
+
+
+.Barcelona img 
+{
+    width: 65px;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+.Barcelona a 
+{
+    margin-top:40px;
+    margin-left:1px;
+}
+
+.Barcelona
+{
+    display:flex;
+    align-items: center ;
+}
