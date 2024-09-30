@@ -134,3 +134,22 @@ align-items: center;
     display:flex;
     align-items: center ;
 }
+
+.rede img 
+{
+    text-align: right;
+    width: 100vh;
+   height: auto;
+}
+
+.times
+{
+
+}
+
+.seção-times 
+{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
