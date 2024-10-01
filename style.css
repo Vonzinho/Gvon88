@@ -76,16 +76,18 @@ display: inline;
     margin-right: 80px;
 }
 
+/* BAYERN */
 .bayer img 
 {
     width: 70px;
     margin-left: 60px;
-    margin-top: 50px;
+    margin-top: 60px;
+    
 }
 
 .bayer a 
 {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .bayer
@@ -94,7 +96,7 @@ display: inline;
     align-items: center;
 }
 
-
+/* REAL MADRID */
 
 .real-madrid img 
 {
@@ -115,7 +117,7 @@ display: flex ;
 align-items: center;
 }
 
-
+/* BARCELONA  */
 .Barcelona img 
 {
     width: 65px;
@@ -152,4 +154,26 @@ align-items: center;
     display:flex;
     justify-content: space-between;
     width: 100%;
+}
+
+/* GURIZES */
+.Gurizes img 
+{
+    width: 65px;
+    margin-left: -390px;
+    margin-top: 240px;
+
+}
+
+.Gurizes a
+{
+    margin-top:250px;
+    margin: left 50px;
+    
+}
+
+.Gurizes 
+{
+    display:flex;
+    align-items: center ; 
 }
