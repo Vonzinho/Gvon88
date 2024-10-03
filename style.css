@@ -1,193 +1,219 @@
-.pagina-inicial
-{
+.pagina-inicial {
     text-align: center;
-    
+
 }
 
-.tela-esquerda img 
-{
+.tela-esquerda img {
     weight: 100vh;
     max-width: 100%;
 }
 
-.tela-direita 
-{
-padding-left: 50px;
+.tela-direita {
+    padding-left: 50px;
 }
 
-.tela-login
-{
-    display:flex;
+.tela-login {
+    display: flex;
 }
 
-.botoes
-{
+.botoes {
     width: 100%;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
-    
+
 
 }
 
-.botoes a 
-{
-    background-color:rgb(242, 242, 242);
+.botoes a {
+    background-color: rgb(242, 242, 242);
     padding: 30px;
     margin: 30px;
     border-radius: 30px;
     text-decoration: none;
 }
 
-body
-{
+body {
     background-image: linear-gradient(0deg, rgb(85, 85, 132), white);
     background-attachment: fixed;
 }
 
-.tela-login
-{
+.tela-login {
     text-align: center;
 }
 
-.logo-home img 
-{
-    width: 70px; /* Altere para o tamanho desejado */
-    height: auto; /* Mantém a proporção da imagem */
-    top: -95px; /* Alinha ao topo */
-    left: -80px; /* Alinha à esquerda */
+.logo-home img {
+    width: 70px;
+    /* Altere para o tamanho desejado */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    top: -95px;
+    /* Alinha ao topo */
+    left: -80px;
+    /* Alinha à esquerda */
 }
-.logo-home
-{
+
+.logo-home {
     background-color: #ADD8E6;
     display: flex;
     justify-content: space-between;
 }
 
 
-.informações li
-{
-display: inline;
+.informações li {
+    display: inline;
 }
 
-.informações 
-
-{
+.informações {
     margin-right: 80px;
 }
 
 /* BAYERN */
-.bayer img 
-{
+.bayer img {
     width: 70px;
     margin-left: 60px;
     margin-top: 60px;
-    
+
 }
 
-.bayer a 
-{
+.bayer a {
     margin-top: 60px;
 }
 
-.bayer
-{
+.bayer {
     display: flex;
     align-items: center;
 }
 
 /* REAL MADRID */
 
-.real-madrid img 
-{
-     width: 110px;
+.real-madrid img {
+    width: 110px;
     margin-left: 40px;
     margin-top: 50px;
 }
 
-.real-madrid a 
-{
+.real-madrid a {
     margin-top: 60px;
     margin-left: -20px;
 }
 
-.real-madrid
-{
-display: flex ;
-align-items: center;
+.real-madrid {
+    display: flex;
+    align-items: center;
 }
 
 /* BARCELONA  */
-.Barcelona img 
-{
+.Barcelona img {
     width: 65px;
     margin-left: 65px;
     margin-top: 50px;
 }
 
-.Barcelona a 
-{
-    margin-top:40px;
-    margin-left:1px;
+.Barcelona a {
+    margin-top: 40px;
+    margin-left: 1px;
 }
 
-.Barcelona
-{
-    display:flex;
-    align-items: center ;
+.Barcelona {
+    display: flex;
+    align-items: center;
 }
 
-.rede img 
-{
+.rede img {
     text-align: right;
     width: 100vh;
-   height: auto;
+    height: auto;
 }
 
-.times
-{
+.times {}
 
-}
-
-.seção-times 
-{
-    display:flex;
+.seção-times {
+    display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
 /* GURIZES */
-.Gurizes img 
-{
+.Gurizes img {
     width: 65px;
     margin-left: -420px;
     margin-top: 110px;
 
 }
 
-.Gurizes a
-{
-    margin-top:120px;
+.Gurizes a {
+    margin-top: 120px;
     margin: left 80px;
-    
+
 }
 
-.Gurizes 
-{
-    display:flex;
-    align-items: center ; 
+.Gurizes {
+    display: flex;
+    align-items: center;
 }
 
-body.tela-de-fundo
-{
-    background-image: linear-gradient(0deg,rgb(255, 0, 0), white);
+body.tela-de-fundo {
+    background-image: linear-gradient(0deg, rgb(255, 0, 0), white);
 }
 
-.bayer-1 img 
-{
+.bayer-1 img {
     width: 70px;
     margin-left: 10px;
     margin-top: 20px;
     display: flex;
 
 }
+
+.bayer-1 {
+    display: flex;
+}
+
+.hist-bayer a {
+    margin-top: 50px;
+    display: flex;
+    text-align: right;
+}
+
+.artilheiros {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center; 
+    margin-left: 3%;
+}
+
+.jogadores-bayer {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 5;
+    font-style: normal;
+    list-style: none;
+    text-align: center;
+}
+
+.Assistências {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    list-style: none;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.ass-bayer {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 5;
+    font-style: normal;
+    margin-bottom: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+.Harry-kane img {
+    display: flex;
+    margin-left: 60%;
+    width: 40%;
+}
+ 
