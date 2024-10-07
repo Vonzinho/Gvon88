@@ -139,7 +139,7 @@ body {
     width: 65px;
     margin-left: -350px;
     margin-top: 300px;i
-    display: flex;
+    
 
 }
 
@@ -218,3 +218,19 @@ body.tela-de-fundo {
     width: 40%;
 }
  
+.hist-bayer
+{
+ text-align: center;
+}
+
+body.fundo-bayer 
+{
+    background-image: linear-gradient(0deg, rgb(255, 0, 0), white);
+    
+}
+
+.img-hist-bayer img 
+{
+    margin-left: 35%;
+    width: 30%;
+   }
