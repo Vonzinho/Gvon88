@@ -234,3 +234,19 @@ body.fundo-bayer
     margin-left: 35%;
     width: 30%;
    }
+
+   .tabela 
+   {
+    display: flex;
+    justify-content: center;
+   }
+
+   table.comBordas {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table.comBordas td,th {
+    border: 1px solid rgb(13, 13, 14);
+}
+
